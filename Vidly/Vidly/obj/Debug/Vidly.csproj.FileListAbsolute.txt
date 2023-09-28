@@ -89,3 +89,5 @@ C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migra
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypeNames.resources
