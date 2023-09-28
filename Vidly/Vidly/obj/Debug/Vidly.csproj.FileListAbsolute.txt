@@ -91,3 +91,4 @@ C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migra
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypeNames.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdatePropertyToCustomer.resources
