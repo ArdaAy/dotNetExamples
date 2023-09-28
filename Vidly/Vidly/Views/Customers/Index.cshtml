@@ -1,0 +1,22 @@
+﻿@model List<Vidly.Models.Customer>
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+@if (Model.Count == 0)
+{
+    <text>There is no Customer in the list</text>
+}
+else
+{
+<ul>
+    @foreach (var customer in Model)
+    {
+    <li>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</li>
+    }
+</ul>
+}
