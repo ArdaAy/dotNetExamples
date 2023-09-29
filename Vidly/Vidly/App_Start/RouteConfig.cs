@@ -30,6 +30,14 @@ namespace Vidly
                 defaults: new { controller = "Customers", action = "Index", id = UrlParameter.Optional }
 
             );
+
+            routes.MapRoute(
+                name: "Movies",
+                url: "Movies",
+                defaults: new { controller = "Movies", action = "Index", id = UrlParameter.Optional }
+
+            );
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

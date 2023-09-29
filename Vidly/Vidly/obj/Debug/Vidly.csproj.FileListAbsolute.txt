@@ -92,3 +92,7 @@ C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migra
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypeNames.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdatePropertyToCustomer.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNewPropertiesForMovieClass.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMovieTableWithProperties.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulatingGenres.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovies.resources
