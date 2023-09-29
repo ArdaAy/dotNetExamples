@@ -96,3 +96,9 @@ C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migra
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMovieTableWithProperties.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulatingGenres.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovies.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenreTableToContext.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.MovieDateAddedPropertyChanged.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenreIdPropertyToMovieClass.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipTypes.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMovieProperties.resources
