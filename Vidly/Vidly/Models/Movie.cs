@@ -10,7 +10,7 @@ namespace Vidly.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter customer's name.")]
         public string Name { get; set; }
 
         [Display(Name="Release Date")]
@@ -21,6 +21,7 @@ namespace Vidly.Models
 
         [Display(Name="Number In Stock")]
         [Required]
+        [Range(1,20)]
         public int NumberInStock { get; set; }
 
         [Display(Name="Genre")]
