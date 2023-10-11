@@ -10,15 +10,14 @@
 @if (Model.Count == 0)
 {
     <text>There is no Customer in the list</text>
-}
-else
-{
-    <table class="table table-bordered table-hover">
+}else{
+    <table id="customers" class="table table-bordered table-hover">
         <thead>
             <tr>
                 <th>Customer</th>
                 <th>Discount Rate</th>
                 <th>Membership Type</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -28,11 +27,22 @@ else
                     <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
                     <td>@customer.MembershipType.DiscountRate%</td>
                     <td>@customer.MembershipType.Name</td>
+                    <td>
+                        <button class="btn-link js-delete">Delete</button>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
-<ul>
-    
-</ul>
+}
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#customers .js-delete").on("click", function () {
+                confirm("Are you sure you want to delete this customer?");
+            });
+        });
+    </script>
+
 }
