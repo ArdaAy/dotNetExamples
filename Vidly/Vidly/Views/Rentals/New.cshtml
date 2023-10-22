@@ -9,7 +9,7 @@
     <div class="form-group">
         <label>Customer</label>
         <div class="tt-container">
-            <input id="customer" type="text" value="" class="form-control" />
+            <input id="customer" data-rule-validCustomer="true" required type="text" value="" class="form-control" />
         </div>
         
     </div>
@@ -33,6 +33,7 @@
 
 @section scripts
 {
+    @Scripts.Render("~/bundles/jqueryval")
     <script>
         $(document).ready(function () {
 
@@ -86,18 +87,31 @@
                 vm.movieIds.push(movie.id);
             });
 
-            $("#newRental").submit(function (e) {
-                e.preventDefault();
-                console.log(vm.customerId);
-                for (var i = 0; i < vm.movieIds.length; i++) {
-                    console.log("movieId = " + vm.movieIds[i]);
+            $.validator.addMethod("validCustomer", function () {
+                return vm.customerId && vm.customerId !== 0;
+            }, "Please select a valid customer.");
+
+            $("#newRental").validate({
+                submitHandler: function () {
+                    e.preventDefault();
+                    console.log(vm.customerId);
+                    for (var i = 0; i < vm.movieIds.length; i++) {
+                        console.log("movieId = " + vm.movieIds[i]);
+                    }
+                    $.ajax({
+                        url: "/api/newRentals",
+                        method: "post",
+                        data: vm
+                    })
+                    .done(function () {
+                        toastr.success("Rentals successfully recorded.");
+                    })
+                    .fail(function () {
+                        toastr.success("Something unexpected happen.");
+                    });
                 }
-                $.ajax({
-                    url: "/api/newRentals",
-                    method: "post",
-                    data: vm
-                });
             });
+
 
         });
     </script>
