@@ -190,6 +190,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Controllers\RentalsController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
     <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
@@ -277,6 +278,10 @@
     <Compile Include="Migrations\202310182150281_AddDrivingLicenseToApplicationUser.cs" />
     <Compile Include="Migrations\202310182150281_AddDrivingLicenseToApplicationUser.Designer.cs">
       <DependentUpon>202310182150281_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202310221823150_AddingNewMovieProperty.cs" />
+    <Compile Include="Migrations\202310221823150_AddingNewMovieProperty.Designer.cs">
+      <DependentUpon>202310221823150_AddingNewMovieProperty.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -536,6 +541,7 @@
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
     <Content Include="Views\Movies\ReadOnlyList.cshtml" />
+    <Content Include="Views\Rentals\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -613,6 +619,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202310182150281_AddDrivingLicenseToApplicationUser.resx">
       <DependentUpon>202310182150281_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202310221823150_AddingNewMovieProperty.resx">
+      <DependentUpon>202310221823150_AddingNewMovieProperty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

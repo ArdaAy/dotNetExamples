@@ -112,3 +112,4 @@ C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\bin\AutoMapper.xml
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingNewMovieProperty.resources
