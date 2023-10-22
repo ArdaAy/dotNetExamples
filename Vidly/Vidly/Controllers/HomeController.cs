@@ -10,6 +10,7 @@ namespace Vidly.Controllers
     public class HomeController : Controller
     {
         
+        [OutputCache(Duration = 50, NoStore = true)]
         public ActionResult Index()
         {
             return View();
