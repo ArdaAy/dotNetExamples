@@ -13,6 +13,7 @@ namespace Vidly.Controllers
         [OutputCache(Duration = 50, NoStore = true)]
         public ActionResult Index()
         {
+            throw new Exception();
             return View();
         }
 
