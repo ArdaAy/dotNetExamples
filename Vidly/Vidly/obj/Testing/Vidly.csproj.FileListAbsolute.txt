@@ -113,3 +113,4 @@ C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Testing\Vidly.csp
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Testing\Vidly.csproj.CopyComplete
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Testing\Vidly.dll
 C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\obj\Testing\Vidly.pdb
+C:\Users\ardaa\Documents\GitHub\dotNetExamples\Vidly\Vidly\bin\Elmah.dll
